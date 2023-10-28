@@ -1,0 +1,47 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.formContainer {
+  width: 30rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  background: #302d2d;
+  color: #fff;
+}
+.formContainer h1{
+    text-align: center;
+}
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.inputContainer input {
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+}
+.formContainer button {
+  padding: 0.5rem;
+  width: 5rem;
+  border-radius: 3.125rem;
+  background: #7e7878;
+  border: none;
+  cursor: pointer;
+}
